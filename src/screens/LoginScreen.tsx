@@ -40,9 +40,9 @@ const LoginScreen = (/*{ history }: Props*/) => {
       <h1>Login</h1>
       <Form onSubmit={submitHandler}>
         <Form.Group controlId='email' className='my-3'>
-          <Form.Label>Email address</Form.Label>
+          <Form.Label>Login</Form.Label>
           <Form.Control
-            placeholder='Enter your email'
+            placeholder='Enter your login'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />

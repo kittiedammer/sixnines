@@ -1,12 +1,75 @@
 main {
-  margin-top: 3rem;
-  height: 75vh;
+  height: calc(100vh - 44px);
+  width: 100vw;
+  overflow: hidden;
+}
+
+.navbar {
+  padding: 0!important;
+  height: 44px!important;
 }
 
 .sixnines-bg {
   background-color: #293238;
 }
 
+.header-logo {
+  width: 80px;
+}
+
 .nav-link{
   color: #42e8e0 !important;
 }
+
+.container-fluid {
+  padding: 0px!important;
+}
+
+.sidebar-column {
+  background: linear-gradient(0deg, rgba(86,71,151,1) 0%, rgba(74,158,154,1) 100%);
+  height: calc(100vh - 44px);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 250px!important;
+  width: 250px!important;
+  padding: 0!important;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.main-content-column {
+  padding: 0!important;
+  width: calc(100vw - 250px)!important;
+}
+
+.sidebar-column-row {
+  margin-top: 1.75rem!important;
+  padding-left: 2.25rem!important;
+  padding-right: 0!important;
+  color: #fff;
+}
+
+.sidebar-column-row h4 {
+  color: #fff;
+}
+
+.sidebar-column-row p {
+  margin-bottom: 0.25rem;
+  line-height: 1.2;
+}
+
+.sidebar-column-button {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.main-content-row {
+  margin: 2rem;
+}
+
+.main-content-row h1 {
+  margin-bottom: 2rem;
+}
+
+
